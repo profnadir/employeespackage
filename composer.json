@@ -1,4 +1,5 @@
 {
+    "version": "1.0.0",
     "name": "profnadir/employeespackage",
     "description": "gestion des employes",
     "type": "library",
