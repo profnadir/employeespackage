@@ -1,0 +1,36 @@
+{
+    "name": "profnadir/employeespackage",
+    "description": "gestion des employes",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Profnadir\\Employeespackage\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Profnadir\\Employeespackage\\Tests\\": "tests"
+        }
+    },
+    "authors": [
+        {
+            "name": "Prof Nadir",
+            "email": "hamzanadir.dev@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Profnadir\\Employeespackage\\EmployeespackageServiceProvider"
+            ],
+            "aliases": {
+                "Employeespackage": "Profnadir\\Employeespackage\\EmployeespackageFacade"
+            }
+        }
+    },
+    "require-dev": {
+        "orchestra/testbench": "8.x-dev"
+    }
+}
